@@ -1,5 +1,4 @@
-from src.Game import Game
+from code.Game import Game
 
 game = Game()
-print("main.py ||||| game.run()")
 game.run()
