@@ -15,8 +15,10 @@ class Game:
         self.screen = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT))
 
     def run(self):
+
         running = True
         while running:
+
             menu = Menu(self.screen)
             menu_return = menu.run()
 
